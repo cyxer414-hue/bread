@@ -12,7 +12,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = 'https://teachablemachine.withgoogle.com/models/3SjTnzYj7u/';
+let imageModelURL = 'https://teachablemachine.withgoogle.com/models/V_tEjZiKg/';
 
 // Video
 let video;
@@ -99,4 +99,5 @@ function gotResult(error, results) {
 ThunkableWebviewerExtension.postMessage( label);
   // Classifiy again!
   classifyVideo();
+
 }
